@@ -1,1 +1,1 @@
-## Encore main project를 위한 repository입니다.
+## Encore Project를 위한 Repository입니다.
