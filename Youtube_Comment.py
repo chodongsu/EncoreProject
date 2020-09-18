@@ -8,6 +8,10 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google_auth_oauthlib.flow import InstalledAppFlow
 
+# #구글 드라이브 올리기용
+# from pydrive.drive import GoogleDrive
+# from pydrive.auth import GoogleAuth
+
 # The CLIENT_SECRETS_FILE variable specifies the name of a file that contains
 # the OAuth 2.0 information for this application, including its client_id and
 # client_secret.
@@ -114,3 +118,16 @@ if __name__ == '__main__':
     service = get_authenticated_service()
     keyword = input('Enter a keyword: ')
     search_videos_by_keyword(service, q=keyword, part='id,snippet', eventType='completed', type='video')
+
+# # google에 올리기
+# gauth = GoogleAuth()
+# gauth.LocalWebserverAuth()
+# drive = GoogleDrive(gauth)
+
+# path = r'MainProject/comments.csv'
+
+# f = drive.CreateFile({'title' : 'EncoreProject'})
+# f.SetcontentFile(path)
+# f.Upload
+
+# f = None
