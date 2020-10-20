@@ -1,0 +1,12 @@
+1. eml -> text extract
+2. dataframe
+doc	제목	내용	
+1
+2
+3
+4
+
+3. LDA -> topic modeling을 해야함(두 개니까 헷갈리지마라)
+
+
+4. 군집화가 된 수의 각각 라벨링을 한 후 dataframe에 cluster라는 새로운 칼럼을 만들어서 y값을 찾아줌
