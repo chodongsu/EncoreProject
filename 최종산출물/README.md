@@ -22,4 +22,17 @@
 * 6.analyze_ip.ipynb
   - ip 주소를 기준으로 시각화 진행
   - 작성자 : 조상혁
+* 7.ja_wordcloud.ipynb
+  - 일본어 이메일 본문 내용에 대한 wordcloud 생성
+  - 작성자 : 조동수
+* 8.ko_wordcloud.ipynb
+  - 한국어 이메일 본문 내용에 대한 wordcloud 생성
+  - 작성자 : 조동수
+* 9.en_wordcloud.ipynb
+  - 영어 이메일 본문 내용에 대한 wordcloud 생성
+  - 작성자 : 조동수
+* 10.de_wordcloud.ipynb
+  - 독일어 이메일 본문 내용에 대한 wordcloud 생성
+  - 작성자 : 조동수
+  
   
