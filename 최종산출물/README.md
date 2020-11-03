@@ -34,5 +34,7 @@
 * 10.de_wordcloud.ipynb
   - 독일어 이메일 본문 내용에 대한 wordcloud 생성
   - 작성자 : 조동수
-  
+* 11.LDA.ipynb
+  - 그룹과 언어 별 스팸메일의 주제를 유추해 보기 위해 텍스트 마이닝 기법 중 LDA(Latent Dirichlet Allocation) 토픽 모델링 진행
+  - 작성자 : 문주혁
   
